@@ -1,0 +1,59 @@
+main{
+    background-color: rgb(56, 57, 58);
+    height: 590px;
+    width: 1000px;
+
+    /* จัดเนื้อหาเข้ากลาง */
+    margin-right: auto;  
+    margin-left: auto;
+}
+header{
+    background-color: rgb(9, 9, 9);
+    overflow: hidden;
+}
+body{
+    background-image: linear-gradient(to right bottom, #0b0b0b, #323538, #0e0f0f, #151516, #020202);
+}
+#menu{
+    /* background-color: aquamarine; */
+    width: 400px;
+    float: right;
+}
+#logo{
+    /* background-color: blue; */
+    width: 40px;
+    float: left;
+    border-radius: 50%;
+}
+#slide{
+    background-color: brown;
+    height: 200px;  
+
+    /* รูปที่เซฟมาต้องมีขนาด 1000x200 */
+}
+#content{
+    background-color: aquamarine;
+    margin-left: 10px;
+    margin-right: auto;
+
+    /* height: 100px; */
+}
+.subcontent{
+    background-color: rgb(244, 243, 243);
+    float: left;
+    margin: 10px;
+    width: 295px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px 1px rgb(93, 93, 93);
+    padding: 6px;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    float: left;
+    margin: 10px;
+}
